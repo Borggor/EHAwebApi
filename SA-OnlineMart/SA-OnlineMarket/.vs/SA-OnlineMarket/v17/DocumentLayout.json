@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\views\\product\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\views\\product\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\controllers\\order\u0026shipementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\controllers\\order\u0026shipementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\views\\order\u0026shipment\\shipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\views\\order\u0026shipment\\shipment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|c:\\users\\ghbri\\onedrive\\documents\\eha\\sa-onlinemart\\sa-onlinemarket\\sa-onlinemarket\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1968C68-741F-4B4E-8DD7-9C364475EC3B}|SA-OnlineMarket\\SA-OnlineMarket.csproj|solutionrelative:sa-onlinemarket\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "SA-OnlineMarket\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:12:53.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Views\\Product\\cart.cshtml",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Views\\Product\\cart.cshtml",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Views\\Product\\cart.cshtml",
+              "RelativeToolTip": "SA-OnlineMarket\\Views\\Product\\cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T10:12:48.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SA-OnlineMarket\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:11:59.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Shipment.cshtml",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Views\\Order\u0026Shipment\\Shipment.cshtml",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Views\\Order\u0026Shipment\\Shipment.cshtml",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Views\\Order\u0026Shipment\\Shipment.cshtml",
+              "RelativeToolTip": "SA-OnlineMarket\\Views\\Order\u0026Shipment\\Shipment.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-26T10:11:22.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "order\u0026shipementController.cs",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\order\u0026shipementController.cs",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Controllers\\order\u0026shipementController.cs",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Controllers\\order\u0026shipementController.cs",
+              "RelativeToolTip": "SA-OnlineMarket\\Controllers\\order\u0026shipementController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:11:04.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "mydbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Data\\mydbContext.cs",
+              "RelativeDocumentMoniker": "SA-OnlineMarket\\Data\\mydbContext.cs",
+              "ToolTip": "C:\\Users\\ghbri\\OneDrive\\Documents\\EHA\\SA-OnlineMart\\SA-OnlineMarket\\SA-OnlineMarket\\Data\\mydbContext.cs",
+              "RelativeToolTip": "SA-OnlineMarket\\Data\\mydbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T10:08:54.027Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
