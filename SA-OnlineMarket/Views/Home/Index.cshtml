@@ -1,0 +1,68 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SA-OnlineMarket</title>
+    <link rel="stylesheet" href="@Url.Content("~/css/home-style.css")">
+    <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="~/wwwroot/js/script.js">cm_toast("warning", '@er.ErrorHeading', '@er.ErrorMessage');</script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="navbar">
+            <div class="navbarleft">
+                <h1>SA-<span>Online Market</span></h1>
+            </div>
+            <div class="navbarright">
+                <ul>
+                    <li><a onclick="openStore()">Shop</a></li>
+                    <li><a >About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><img src="@Url.Content("~/Images/shopping-cart.png")" alt="Cart"></a></li>
+                    <li><a onclick="openLogin()"><img src="@Url.Content("~/Images/people.png")" alt="Profile"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="banner">
+            <div class="left">
+                <div class="search">
+                    <img src="@Url.Content("~/Images/search.png")" alt="Search Icon">
+                    <input type="text">
+                </div>
+                <h1>Helping the <span>people</span></h1>
+                <h3>Making it easy for businesses and customers</h3>
+                <p>
+                    Sales at the tip of your finger
+                </p>
+                <div class="btn">
+                    <button type="button" onclick="send_Info()">Read More</button>
+                    <button type="button">Explore Store</button>
+                </div>
+                <div class="social">
+                    <img src="@Url.Content("~/Images/instagram.png")" alt="Instagram">
+                    <img src="@Url.Content("~/Images/tik-tok.png")" alt="TikTok">
+                    <img src="@Url.Content("~/Images/social-media.png")" alt="Social Media">
+                </div>
+            </div>
+            <div class="right">
+                <img src="@Url.Content("~/Images/home-page-art.png")" alt="Home Page Art">
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <ul class="mobile-menu-list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="@Url.Content("")">Profile</a></li>
+        </ul>
+    </div>
+</body>
+</html>

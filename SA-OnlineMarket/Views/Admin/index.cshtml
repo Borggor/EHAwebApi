@@ -1,0 +1,114 @@
+
+@{
+    ViewBag.Title = "Admin Dashboard";
+}
+
+<h2>Admin Dashboard</h2>
+
+<!-- Orders Section -->
+<section id="orders">
+    <h3>View Orders</h3>
+    @if (Model.Orders != null && Model.Orders.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer Name</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Total</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var order in Model.Orders)
+                {
+                    <tr>
+                        <td>@order.OrderId</td>
+                        <td>@order.CustomerName</td>
+                        <td>@order.OrderDate.ToString("dd/MM/yyyy")</td>
+                        <td>@order.Status</td>
+                        <td>@order.Total.ToString("C")</td>
+                        <td>
+                            <a asp-action="OrderDetails" asp-route-id="@order.OrderId" class="btn btn-info">View Details</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No orders found.</p>
+    }
+</section>
+
+<!-- Shipments Section -->
+<section id="shipments">
+    <h3>Manage Shipments</h3>
+    @if (Model.Shipments != null && Model.Shipments.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Shipment ID</th>
+                    <th>Order ID</th>
+                    <th>Shipped Date</th>
+                    <th>Status</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var shipment in Model.Shipments)
+                {
+                    <tr>
+                        <td>@shipment.ShipmentId</td>
+                        <td>@shipment.OrderId</td>
+                        <td>@shipment.ShippedDate?.ToString("dd/MM/yyyy")</td>
+                        <td>@shipment.Status</td>
+                        <td>
+                            <a asp-action="ShipmentDetails" asp-route-id="@shipment.ShipmentId" class="btn btn-info">View Details</a>
+                            <form asp-action="UpdateShipmentStatus" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="@shipment.ShipmentId" />
+                                <button type="submit" class="btn btn-warning">Update Status</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No shipments found.</p>
+    }
+</section>
+
+<!-- Add New Product Section -->
+<section id="add-product">
+    <h3>Add New Product</h3>
+    <form asp-action="AddProduct" method="post">
+        <div class="form-group">
+            <label for="ProductName">Product Name</label>
+            <input type="text" name="ProductName" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Description">Description</label>
+            <textarea name="Description" class="form-control" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="Price">Price</label>
+            <input type="number" name="Price" class="form-control" step="0.01" required />
+        </div>
+        <div class="form-group">
+            <label for="Stock">Stock</label>
+            <input type="number" name="Stock" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="Category">Category</label>
+            <input type="text" name="Category" class="form-control" required />
+        </div>
+        <button type="submit" class="btn btn-success">Add Product</button>
+    </form>
+</section>
