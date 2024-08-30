@@ -21,5 +21,30 @@ namespace SA_OnlineMarket.Controllers
         {   
             return View();
         }
+
+        [HttpPost("Login/Login")]
+        public IActionResult userLogin(addProdData product)
+        {
+            using (var con=_context.Database.GetDbConnection())
+            {
+                con.Open();
+                using (var aer = con.CreateCommand())
+                {
+                    aer.CommandType = CommandType.Text;
+                    aer.CommandText = "SELECT isAdmin FROM Users WHERE customer_ID = '"Name"' && customer_pass = '"password"';";
+                    aer.ExecuteScalar();
+                    if (aer == 0)
+                    {
+
+                    }
+                    else
+                    {
+                         
+                    }
+                }
+            }           
+            Console.WriteLine("vbyuisdfvgyuifuvgbygyuSDFgbyuioarugbyizdfh");
+            return Redirect("/product");
+        }
     }
 }

@@ -50,23 +50,23 @@
 <!-- Add New Product Section -->
 <section id="add-product">
     <h3>Add New Product</h3>
-    <form asp-action="addProduct" method="post">
+    <form asp-controller="AdminController" asp-action="addData" method="post">
         <div class="form-group">
-            <label asp-action="Name">Product Name</label>
-            <input asp-action="Name" required />
+            <label asp-for="Name">Product Name</label>
+            <input asp-for="Name" required />
         </div>
         <div class="form-group">
-            <label asp-action="Description">Description</label>
-            <textarea asp-action="Description" required></textarea>
+            <label asp-for="Description">Description</label>
+            <textarea asp-for="Description" required></textarea>
         </div>
         <div class="form-group">
-            <label asp-action="Price">Price</label>
-            <input asp-action="Price" required />
+            <label asp-for="Price">Price</label>
+            <input asp-for="Price" required />
         </div>
         <div class="form-group">
-            <label asp-action="Stock">Stock</label>
-            <input asp-action="Stock" required />
+            <label asp-for="Stock">Stock</label>
+            <input asp-for="Stock" required />
         </div>
-        <button type="submit" class="btn btn-success">Add Product</button>
+        <button type="submit" class="btn">Add Product</button>
     </form>
 </section>

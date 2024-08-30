@@ -1,23 +1,42 @@
+using System.Data;
+using getProductReq;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using SA_OnlineMarket.Data;
 using SA_OnlineMarket.Models;
-using System.Diagnostics;
-
 
 namespace SA_OnlineMarket.Controllers
 {
-    public class AdminController : Controller
+    public class addDataController : Controller
     {
-        private readonly ILogger<AdminController> _logger;
-        
+        private readonly mydbContext _context;
 
-        public AdminController(ILogger<AdminController> logger)
+        public addDataController(mydbContext context)
         {
-            logger = _logger;
+            _context = context;
         }
-
         public IActionResult Index()
         {
             return View();
+        }
+        [HttpPost("Admin/addProduct")]
+        public IActionResult addProduct(addProdData product)
+        {
+            using (var con=_context.Database.GetDbConnection())
+            {
+                con.Open();
+                using (var aer = con.CreateCommand())
+                {
+                    aer.CommandType = CommandType.Text;
+                    aer.CommandText = "INSERT INTO Products VALUES ("Name","Description","Stock","Price")";
+                    aer.ExecuteNonQuery();
+                    //aer.ExecuteScalar();
+                }
+            }           
+            Console.WriteLine("vbyuisdfvgyuifuvgbygyuSDFgbyuioarugbyizdfh");
+            return Redirect("/product");
         }
     }
 }

@@ -4032,32 +4032,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ghbri\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\brink\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\EHA\\EHAwebApi\\getProduct\\getProduct.csproj",
+      "projectUniqueName": "C:\\EHA\\EHAwebApi\\getProduct\\getProduct.csproj",
       "projectName": "getProduct",
-      "projectPath": "c:\\EHA\\EHAwebApi\\getProduct\\getProduct.csproj",
-      "packagesPath": "C:\\Users\\ghbri\\.nuget\\packages\\",
-      "outputPath": "c:\\EHA\\EHAwebApi\\getProduct\\obj\\",
+      "projectPath": "C:\\EHA\\EHAwebApi\\getProduct\\getProduct.csproj",
+      "packagesPath": "C:\\Users\\brink\\.nuget\\packages\\",
+      "outputPath": "C:\\EHA\\EHAwebApi\\getProduct\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ghbri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\brink\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4117,7 +4109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
