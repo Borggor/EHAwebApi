@@ -5,16 +5,92 @@
       "PackagePath": "staticwebassets\\SA-OnlineMarket.bundle.scp.css"
     },
     {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\Students-Shopping.jpg",
+      "PackagePath": "staticwebassets\\Images\\Students-Shopping.jpg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\bread.jpg",
+      "PackagePath": "staticwebassets\\Images\\bread.jpg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\butter.jpg",
+      "PackagePath": "staticwebassets\\Images\\butter.jpg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\eggs.jpg",
+      "PackagePath": "staticwebassets\\Images\\eggs.jpg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\home-page-art.png",
+      "PackagePath": "staticwebassets\\Images\\home-page-art.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\instagram.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\logo.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\milk.jpg",
+      "PackagePath": "staticwebassets\\Images\\milk.jpg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\pasta.jpeg",
+      "PackagePath": "staticwebassets\\Images\\pasta.jpeg"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\people.png",
+      "PackagePath": "staticwebassets\\Images\\people.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\profile.png",
+      "PackagePath": "staticwebassets\\Images\\profile.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\search.png",
+      "PackagePath": "staticwebassets\\Images\\search.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\shopping-cart.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\social-media.png",
+      "PackagePath": "staticwebassets\\Images\\social-media.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\tik-tok.png",
+      "PackagePath": "staticwebassets\\Images\\tik-tok.png"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\Images\\toothpaste.jpg",
+      "PackagePath": "staticwebassets\\Images\\toothpaste.jpg"
+    },
+    {
       "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\css\\home-style.css",
       "PackagePath": "staticwebassets\\css\\home-style.css"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\css\\login-style.css",
+      "PackagePath": "staticwebassets\\css\\login-style.css"
     },
     {
       "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\EHA\\EHAwebApi\\SA-OnlineMarket\\wwwroot\\js\\site.js",

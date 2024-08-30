@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\EHA\EHAwebApi\SA-OnlineMarket
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Admin/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5caW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,26 +32,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Login/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Login/SignUp.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cU2lnblVwLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Order&Shipment/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXImU2hpcG1lbnRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Order&Shipment/Shipment.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXImU2hpcG1lbnRcU2hpcG1lbnQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Product/addProducts.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxhZGRQcm9kdWN0cy5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Product/cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxjYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/EHA/EHAwebApi/SA-OnlineMarket/Views/Product/Index.cshtml]

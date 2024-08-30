@@ -271,3 +271,4 @@ C:\EHA\EHAwebApi\SA-OnlineMarket\obj\Debug\net8.0\refint\SA-OnlineMarket.dll
 C:\EHA\EHAwebApi\SA-OnlineMarket\obj\Debug\net8.0\SA-OnlineMarket.pdb
 C:\EHA\EHAwebApi\SA-OnlineMarket\obj\Debug\net8.0\SA-OnlineMarket.genruntimeconfig.cache
 C:\EHA\EHAwebApi\SA-OnlineMarket\obj\Debug\net8.0\ref\SA-OnlineMarket.dll
+C:\EHA\EHAwebApi\SA-OnlineMarket\bin\Debug\net8.0\Newtonsoft.Json.dll

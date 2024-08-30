@@ -6,7 +6,8 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using getProduct.Data;
+using getOrder.Data;
+
 
 namespace getOrder.Controllers;
 
@@ -25,8 +26,8 @@ public class myProductController : ControllerBase
     public ActionResult<IEnumerable<orderReq>> Get()
     {
         try{
-            var products = _context.orderInfo.ToList();
-            return Ok(products);
+            var Order = _context.orderInfo.ToList();
+            return Ok(Order);
         }
         catch (Exception ex)
         {

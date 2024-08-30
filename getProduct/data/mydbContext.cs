@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using getProduct;
+using getProductReq;
 
 namespace getProduct.Data
 {
